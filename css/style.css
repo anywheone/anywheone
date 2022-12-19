@@ -121,10 +121,11 @@ header #logo img {
 	color: #000;		/*文字色*/
 }
 
-/*４つ目(Instagram)を除き、以下のGoogle Fontsを使う。*/
+/*４つ目(Notices)を除き、以下のGoogle Fontsを使う。
 #menubar li:not(:nth-of-type(4)) {
 	font-family: 'Big Shoulders Display', cursive;
 }
+*/
 
 /*マウスオン時*/
 #menubar li:hover {
@@ -132,7 +133,7 @@ header #logo img {
 	filter: brightness(1.1);	/*少しだけ明るくする*/
 }
 
-/*１つ目のメニュー(About)*/
+/*１つ目のメニュー(Profile)*/
 #menubar li:nth-of-type(1) {
 	left: 1%;			/*ウィンドウに対して左からの配置場所*/
 	top: 25%;			/*ウィンドウに対して上からの配置場所*/
@@ -142,7 +143,7 @@ header #logo img {
 	line-height: 90px;	/*高さ*/
 }
 
-/*２つ目のメニュー(Gallery)*/
+/*２つ目のメニュー(Apps)*/
 #menubar li:nth-of-type(2) {
 	left: 1%;			/*ウィンドウに対して左からの配置場所*/
 	top: 45%;			/*ウィンドウに対して上からの配置場所*/
@@ -162,14 +163,14 @@ header #logo img {
 	line-height: 70px;	/*高さ*/
 }
 
-/*４つ目のメニュー(Instagram)*/
+/*４つ目のメニュー(Notices)*/
 #menubar li:nth-of-type(4) {
 	left: 8%;			/*ウィンドウに対して左からの配置場所*/
 	top: 85%;			/*ウィンドウに対して上からの配置場所*/
 	animation-delay: 0.8s;	/*0.8秒だけ遅れてアニメーションをスタートさせる設定*/
 	background: #fff;	/*背景色*/
-	width: 60px;		/*幅*/
-	line-height: 60px;	/*高さ*/
+	width: 120px;		/*幅*/
+	line-height: 90px;	/*高さ*/
 }
 
 
@@ -242,7 +243,7 @@ main p {
 }
 
 
-/*Galleryブロック
+/*Appsブロック
 ---------------------------------------------------------------------------*/
 /*listボックスを囲むボックス*/
 .list-container {
@@ -263,14 +264,14 @@ main p {
 }
 
 
-/*「お知らせ」ブロック
+/*「Informations」ブロック
 ---------------------------------------------------------------------------*/
-/*お知らせブロック*/
-#new {
+/*Informationsブロック*/
+#notices {
 	padding: 0 20px;	/*上下、左右へのボックス内の余白*/
 }
 /*日付の横のマーク（共通設定）*/
-#new dt span {
+#notices dt span {
 	display: none;	/*小さな端末では非表示にしておく。*/
 }
 
@@ -372,29 +373,29 @@ footer .pr {display: block;}
 @media screen and (min-width:370px) {
 
 
-/*「お知らせ」ブロック
+/*「Informations」ブロック
 ---------------------------------------------------------------------------*/
-/*お知らせブロック*/
-#new {
+/*Informationsブロック*/
+#notices {
 	margin: 0;
 	display: flex;		/*flexボックスを使う指定*/
 	flex-wrap: wrap;	/*折り返す指定*/
 }
 
 /*日付(dt)、記事(dd)共通設定*/
-#new dt,
-#new dd {
+#notices dt,
+#notices dd {
 	padding: 5px 0;		/*上下、左右へのボックス内の余白*/
 }
 
 /*日付(dt)設定*/
-#new dt {
+#notices dt {
 	width: 8em;	/*幅。8文字(em)分。※下の「900px以上」の端末用の設定に再設定があります。*/
 }
 
 /*記事(dd)設定*/
-#new dd {
-	width: calc(100% - 8em);	/*「8em」は上の「#new dt」のwidthの値です。※下の「900px以上」の端末用の設定に再設定があります。*/
+#notices dd {
+	width: calc(100% - 8em);	/*「8em」は上の「#notices dt」のwidthの値です。※下の「900px以上」の端末用の設定に再設定があります。*/
 }
 
 
@@ -455,7 +456,7 @@ header #logo img {
 	font-size: 2em;		/*文字サイズ*/
 }
 
-/*１つ目のメニュー(About)*/
+/*１つ目のメニュー(Profile)*/
 #menubar li:nth-of-type(1) {
 	left: 20%;			/*ウィンドウに対して左からの配置場所*/
 	top: 27%;			/*ウィンドウに対して上からの配置場所*/
@@ -463,7 +464,7 @@ header #logo img {
 	line-height: 150px;	/*高さ*/
 }
 
-/*２つ目のメニュー(Gallery)*/
+/*２つ目のメニュー(Apps)*/
 #menubar li:nth-of-type(2) {
 	left: 4%;			/*ウィンドウに対して左からの配置場所*/
 	top: 45%;			/*ウィンドウに対して上からの配置場所*/
@@ -479,7 +480,7 @@ header #logo img {
 	line-height: 130px;	/*高さ*/
 }
 
-/*４つ目のメニュー(Instagram)*/
+/*４つ目のメニュー(Notices)*/
 #menubar li:nth-of-type(4) {
 	left: 7%;			/*ウィンドウに対して左からの配置場所*/
 	top: 80%;			/*ウィンドウに対して上からの配置場所*/
@@ -494,17 +495,17 @@ header #logo img {
 }
 
 
-/*「お知らせ」ブロック
+/*「Informations」ブロック
 ---------------------------------------------------------------------------*/
 /*日付(dt)設定*/
-#new dt {
+#notices dt {
 	width: 14em;	/*幅。14文字(em)分。*/
 	display: flex;	/*flexボックスを使う指定*/
 	justify-content: space-between;	/*日付とアイコンをそれぞれ端に寄せる*/
 }
 
 /*日付の横のマーク（共通設定）*/
-#new dt span {
+#notices dt span {
 	display: inline-block;	/*表示させる*/
 	width: 6em;				/*幅。6文字(em)分。*/
 	background: #999;		/*背景色*/
@@ -518,14 +519,14 @@ header #logo img {
 	position: relative;top: 0.4em;	/*上下の配置バランスの微調整*/
 }
 
-/*bg1設定。サンプルテンプレートでは「Gallery」と書いてあるマーク*/
-#new dt span.icon-bg1 {
+/*bg1設定。サンプルテンプレートでは「Apps」と書いてあるマーク*/
+#notices dt span.icon-bg1 {
 	background: #74791b;	/*背景色*/
 }
 
 /*記事(dd)設定*/
-#new dd {
-	width: calc(100% - 14em);	/*「14em」は上の「#new dt」のwidthの値です。*/
+#notices dd {
+	width: calc(100% - 14em);	/*「14em」は上の「#notices dt」のwidthの値です。*/
 }
 
 
