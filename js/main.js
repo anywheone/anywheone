@@ -1,6 +1,5 @@
 
-//pagetop
-/*
+//pagetop 画面右下の↑ボタンを隠しておき、スクロールしてから表示させる
 $(function() {
     var scroll = $('.pagetop');
     var scrollShow = $('.pagetop-show');
@@ -13,7 +12,7 @@ $(function() {
             }
         });
 });
-*/
+
 
 //スムーススクロール(jQueryのoffsetで取得した要素の座標へスクロール)
 $(window).on('load', function() {
@@ -27,11 +26,4 @@ $(window).on('load', function() {
 		}, 100);
 	}
 });
-$(window).on('load', function() {
-    $('a[href^="#"]').click(function() {
-        var href = $(this).attr('href');
-        var target = href == '#' ? 0 : $(href).offset().top;
-            $('body,html').animate({scrollTop:target},500);
-            return false;
-    });
-});
+
