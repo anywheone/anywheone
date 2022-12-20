@@ -14,7 +14,7 @@ $(function() {
 });
 
 
-//スムーススクロール
+//スムーススクロール(jQueryのoffsetで取得した要素の座標へスクロール)
 $(window).on('load', function() {
 	var hash = location.hash;
 	if(hash) {
