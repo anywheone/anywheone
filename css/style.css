@@ -484,6 +484,8 @@ header #logo img {
 #menubar li:nth-of-type(4) {
 	left: 3%;			/*ウィンドウに対して左からの配置場所*/
 	top: 65%;			/*ウィンドウに対して上からの配置場所*/
+	width: 130px;		/*幅*/
+	line-height: 130px;	/*高さ*/
 }
 
 
