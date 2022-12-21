@@ -82,7 +82,9 @@ a:hover {
 	position: fixed;top: 0px;z-index: -1;
 	width: 100%;
 	height: 100%;
-	background: url(../images/bg_main.jpg) no-repeat center center / cover;
+	/*background: url(../images/bg_main.jpg) no-repeat center center / cover;*/
+	background: url(../images/bg_main.jpg);
+	background-size: cover;
 }
 
 
@@ -417,10 +419,6 @@ header #logo img {
 	margin-block: auto;
 }
 
-
-
-/*　※注意！　下の閉じカッコ　}　はこのブロックに必要なので、削除しないで下さい。　*/
-
 }
 
 
@@ -476,9 +474,6 @@ header #logo img {
 	line-height: 50px;	/*高さ*/
 	margin-block: auto;
 }
-
-
-/*　※注意！　下の閉じカッコ　}　はこのブロックに必要なので、削除しないで下さい。　*/
 
 }
 
@@ -543,10 +538,6 @@ header #logo img {
 	width: 130px;		/*幅*/
 	line-height: 130px;	/*高さ*/
 }
-
-
-
-/*　※注意！　下の閉じカッコ　}　はこのブロックに必要なので、削除しないで下さい。　*/
 
 }
 
