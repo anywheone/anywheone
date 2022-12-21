@@ -403,6 +403,7 @@ header #logo img {
 	top: 15%;			/*ウィンドウに対して上からの配置場所*/
 	width: 100px;		/*幅*/
 	line-height: 60px;	/*高さ*/
+	margin-block: 2%;
 }
 
 /*２つ目のメニュー(Apps)*/
@@ -411,6 +412,7 @@ header #logo img {
 	top: 28%;			/*ウィンドウに対して上からの配置場所*/
 	width: 100px;		/*幅*/
 	line-height: 60px;	/*高さ*/
+	margin-block: 2%;
 }
 
 /*３つ目のメニュー(Link)*/
@@ -419,6 +421,7 @@ header #logo img {
 	top: 41%;			/*ウィンドウに対して上からの配置場所*/
 	width: 100px;		/*幅*/
 	line-height: 60px;	/*高さ*/
+	margin-block: 2%;
 }
 
 /*４つ目のメニュー(Notices)*/
@@ -427,6 +430,7 @@ header #logo img {
 	top: 54%;			/*ウィンドウに対して上からの配置場所*/
 	width: 100px;		/*幅*/
 	line-height: 60px;	/*高さ*/
+	margin-block: 2%;
 }
 
 
