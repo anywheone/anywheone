@@ -37,7 +37,6 @@ html,body {
 body {
 	font-family: "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 	-webkit-text-size-adjust: none;
-	background: #fff url(../images/bg.jpg) repeat center center/200px;
 	color: #ccc;		/*全体の文字色*/
 	line-height: 2;		/*行間*/
 }
@@ -49,9 +48,6 @@ nav {margin: 0;padding: 0;}
 
 /*table全般の設定*/
 table {border-collapse:collapse;}
-
-/*画像全般の設定*/
-img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
 
 /*videoタグ*/
 video {max-width: 100%;}
@@ -78,14 +74,12 @@ a:hover {
 /*メインイメージ（bg_main.jpgを読み込んでいます）
 ---------------------------------------------------------------------------*/
 #mainimg {
-	text-indent: -9999px;
 	position: fixed;top: 0px;z-index: -1;
 	width: 100%;
 	height: 100%;
 	/*background: url(../images/bg_main.jpg) no-repeat center center / cover;*/
 	background: url(../images/bg_main.jpg);
 	background-size: cover;
-	background-attachment: fixed;
 }
 
 
@@ -240,6 +234,9 @@ main p {
 	width: 22%;						/*幅。１行に何個配置したいか、ここの数値を変更してお好みで調整して下さい。*/
 }
 
+/*画像全般の設定*/
+.list img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
+
 /*「Notices」ブロック
 ---------------------------------------------------------------------------*/
 
@@ -340,18 +337,7 @@ footer .pr {display: block;}
 }
 
 
-/*その他
----------------------------------------------------------------------------*/
-.clearfix::after {content: "";display: block;clear: both;}
-.color-theme, .color-theme a {color: #74791b !important;}
-.color-check, .color-check a {color: #f00 !important;}
-.c {text-align: center !important;}
-.ws {width: 95%;display: block;}
-.wl {width: 95%;display: block;}
-.mb30 {margin-bottom: 30px !important;}
-.look {display: inline-block;padding: 0px 10px;background: #666; color: #fff; border-radius: 3px;margin: 5px 0;}
-.look .color-check {color: #ffcc00 !important;}
-.small {font-size: 0.6em;}
+
 
 
 
