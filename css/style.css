@@ -193,7 +193,7 @@ main h3 {
 
 /*段落タグ*/
 main p {
-	padding: 0 30px 30px;		/*上、左右、下への余白*/
+	padding: 0 30px 0px;		/*上、左右、下への余白*/
 }
 
 /*bg1スタイルのついたコンテンツ*/
@@ -387,7 +387,7 @@ header #logo img {
 	top: 15%;			/*ウィンドウに対して上からの配置場所*/
 	width: 100px;		/*幅*/
 	line-height: 60px;	/*高さ*/
-	margin-block: auto%;
+	margin-block: auto;
 }
 
 /*２つ目のメニュー(Apps)*/
@@ -396,7 +396,7 @@ header #logo img {
 	top: 28%;			/*ウィンドウに対して上からの配置場所*/
 	width: 100px;		/*幅*/
 	line-height: 60px;	/*高さ*/
-	margin-block: auto%;
+	margin-block: auto;
 }
 
 /*３つ目のメニュー(Link)*/
@@ -405,7 +405,7 @@ header #logo img {
 	top: 41%;			/*ウィンドウに対して上からの配置場所*/
 	width: 100px;		/*幅*/
 	line-height: 60px;	/*高さ*/
-	margin-block: auto%;
+	margin-block: auto;
 }
 
 /*４つ目のメニュー(Notices)*/
@@ -414,7 +414,7 @@ header #logo img {
 	top: 54%;			/*ウィンドウに対して上からの配置場所*/
 	width: 100px;		/*幅*/
 	line-height: 60px;	/*高さ*/
-	margin-block: auto%;
+	margin-block: auto;
 }
 
 
@@ -424,7 +424,55 @@ header #logo img {
 }
 
 
+/*---------------------------------------------------------------------------
+ここから下は画面幅370px以下の追加指定 (スマホ画面サイズ用)
+---------------------------------------------------------------------------*/
+@media screen and (max-width:370px) {
 
+
+/*「Notices」ブロック
+---------------------------------------------------------------------------*/
+/*Noticesブロック*/
+/*１つ目のメニュー(Profile)*/
+#menubar li:nth-of-type(1) {
+	left: 0%;			/*ウィンドウに対して左からの配置場所*/
+	top: 15%;			/*ウィンドウに対して上からの配置場所*/
+	width: 85px;		/*幅*/
+	line-height: 50px;	/*高さ*/
+	margin-block: auto;
+}
+
+/*２つ目のメニュー(Apps)*/
+#menubar li:nth-of-type(2) {
+	left: 0%;			/*ウィンドウに対して左からの配置場所*/
+	top: 28%;			/*ウィンドウに対して上からの配置場所*/
+	width: 85px;		/*幅*/
+	line-height: 50px;	/*高さ*/
+	margin-block: auto;
+}
+
+/*３つ目のメニュー(Link)*/
+#menubar li:nth-of-type(3) {
+	left: 0%;			/*ウィンドウに対して左からの配置場所*/
+	top: 41%;			/*ウィンドウに対して上からの配置場所*/
+	width: 85px;		/*幅*/
+	line-height: 50px;	/*高さ*/
+	margin-block: auto;
+}
+
+/*４つ目のメニュー(Notices)*/
+#menubar li:nth-of-type(4) {
+	left: 0%;			/*ウィンドウに対して左からの配置場所*/
+	top: 54%;			/*ウィンドウに対して上からの配置場所*/
+	width: 85px;		/*幅*/
+	line-height: 50px;	/*高さ*/
+	margin-block: auto;
+}
+
+
+/*　※注意！　下の閉じカッコ　}　はこのブロックに必要なので、削除しないで下さい。　*/
+
+}
 
 
 
