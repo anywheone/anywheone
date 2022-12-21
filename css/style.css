@@ -387,7 +387,7 @@ header #logo img {
 	top: 15%;			/*ウィンドウに対して上からの配置場所*/
 	width: 100px;		/*幅*/
 	line-height: 60px;	/*高さ*/
-	margin-block: 2%;
+	margin-block: auto%;
 }
 
 /*２つ目のメニュー(Apps)*/
@@ -396,7 +396,7 @@ header #logo img {
 	top: 28%;			/*ウィンドウに対して上からの配置場所*/
 	width: 100px;		/*幅*/
 	line-height: 60px;	/*高さ*/
-	margin-block: 2%;
+	margin-block: auto%;
 }
 
 /*３つ目のメニュー(Link)*/
@@ -405,7 +405,7 @@ header #logo img {
 	top: 41%;			/*ウィンドウに対して上からの配置場所*/
 	width: 100px;		/*幅*/
 	line-height: 60px;	/*高さ*/
-	margin-block: 2%;
+	margin-block: auto%;
 }
 
 /*４つ目のメニュー(Notices)*/
@@ -414,7 +414,7 @@ header #logo img {
 	top: 54%;			/*ウィンドウに対して上からの配置場所*/
 	width: 100px;		/*幅*/
 	line-height: 60px;	/*高さ*/
-	margin-block: 2%;
+	margin-block: auto%;
 }
 
 
@@ -422,46 +422,6 @@ header #logo img {
 /*　※注意！　下の閉じカッコ　}　はこのブロックに必要なので、削除しないで下さい。　*/
 
 }
-
-
-
-
-/*---------------------------------------------------------------------------
-ここから下は画面の横幅が「370px以下」の場合の追加指定
----------------------------------------------------------------------------*/
-@media screen and (max-width:370px) {
-
-/*１つ目のメニュー(Profile)*/
-#menubar li:nth-of-type(1) {
-	margin-block: auto;
-}
-
-/*２つ目のメニュー(Apps)*/
-#menubar li:nth-of-type(2) {
-	margin-block: auto;
-}
-
-/*３つ目のメニュー(Link)*/
-#menubar li:nth-of-type(3) {
-	margin-block: auto;
-}
-
-/*４つ目のメニュー(Notices)*/
-#menubar li:nth-of-type(4) {
-	margin-block: auto;
-}
-
-
-
-
-
-
-/*　※注意！　下の閉じカッコ　}　はこのブロックに必要なので、削除しないで下さい。　*/
-
-}
-
-
-
 
 
 
