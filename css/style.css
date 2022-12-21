@@ -445,7 +445,7 @@ header #logo img {
 /*２つ目のメニュー(Apps)*/
 #menubar li:nth-of-type(2) {
 	left: 0%;			/*ウィンドウに対して左からの配置場所*/
-	top: 28%;			/*ウィンドウに対して上からの配置場所*/
+	top: 30%;			/*ウィンドウに対して上からの配置場所*/
 	width: 85px;		/*幅*/
 	line-height: 50px;	/*高さ*/
 	margin-block: auto;
@@ -454,7 +454,7 @@ header #logo img {
 /*３つ目のメニュー(Link)*/
 #menubar li:nth-of-type(3) {
 	left: 0%;			/*ウィンドウに対して左からの配置場所*/
-	top: 41%;			/*ウィンドウに対して上からの配置場所*/
+	top: 43%;			/*ウィンドウに対して上からの配置場所*/
 	width: 85px;		/*幅*/
 	line-height: 50px;	/*高さ*/
 	margin-block: auto;
@@ -463,7 +463,7 @@ header #logo img {
 /*４つ目のメニュー(Notices)*/
 #menubar li:nth-of-type(4) {
 	left: 0%;			/*ウィンドウに対して左からの配置場所*/
-	top: 54%;			/*ウィンドウに対して上からの配置場所*/
+	top: 56%;			/*ウィンドウに対して上からの配置場所*/
 	width: 85px;		/*幅*/
 	line-height: 50px;	/*高さ*/
 	margin-block: auto;
