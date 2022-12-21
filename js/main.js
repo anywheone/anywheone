@@ -1,6 +1,5 @@
 
 //pagetop 画面右下の↑ボタンを隠しておき、スクロールしてから表示させる
-/*
 $(function() {
     var scroll = $('.pagetop');
     var scrollShow = $('.pagetop-show');
@@ -13,7 +12,6 @@ $(function() {
             }
         });
 });
-*/
 
 //スムーススクロール(jQueryのoffsetで取得した要素の座標へスクロール)
 $(window).on('load', function() {
