@@ -26,3 +26,7 @@ $(window).on('load', function() {
 	}
 });
 
+window.addEventListener('beforeunload', function(e){
+  /** 更新される直前の処理 */
+  $('body,html').scrollTop(0);
+});
